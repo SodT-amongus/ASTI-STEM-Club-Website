@@ -5,7 +5,7 @@ body {
   padding: 0;
   color: #f7f8f8;
   font-family: "Lexend", sans-serif;
-  font-weight: 500;
+  font-weight: 350;
   font-style: normal;
 }
 
@@ -35,11 +35,12 @@ body {
 }
 
 #background_image {
-  margin-top: 46px;
-  vertical-align: middle;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  background-image: url("https://i.postimg.cc/1t1hzRGD/IMG-4653.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: block;
 }
 
 #homeText {
@@ -48,10 +49,4 @@ body {
   position: absolute;
   padding: 0.01em 16px;
   bottom: 0;
-}
-
-#summary {
-  padding-top: 64px;
-  padding-bottom: 64px;
-  text-align: center;
 }
